@@ -33,7 +33,7 @@ hudson_conf/
 MobileClient/
 npl_ci/
 obj/
-ParaWorld/
+# ParaWorld/
 temp/
 Tests/
 !NPLRuntime/tests
