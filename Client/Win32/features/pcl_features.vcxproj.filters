@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\src\fpfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\src\pfh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\include\pcl\features\feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\include\pcl\features\fpfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\include\pcl\features\fpfh_omp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\include\pcl\features\pfh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\pcl\features\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0822866B-7A79-3995-A468-392BA3023C58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4C2CAF42-75C3-3BBA-99C8-90464169B846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

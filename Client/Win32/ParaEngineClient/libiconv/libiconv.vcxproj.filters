@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\genaliases.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\genaliases2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gentranslit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iconv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\localcharset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\relocatable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\include\iconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_aix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_aix_sysaix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_dos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_osf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_osf1_sysosf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_sysaix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_syshpux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_sysosf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_syssolaris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\armscii_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ascii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\atarist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5_2003.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs1999.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs2001.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs2004.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs2008.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\c99.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_aix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_aix_sysaix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_dos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_extra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_sysaix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_syshpux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_sysosf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_syssolaris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_osf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_osf1_sysosf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_sysaix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_syshpux.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_sysosf1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_syssolaris.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ces_big5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ces_gbk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cjk_variants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_4a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_4b.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_inv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\converters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1046.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1124.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1125.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1129.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1131.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1133.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1161.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1162.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1163.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1250.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1251.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1252.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1253.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1254.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1255.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1256.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1257.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1258.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp437.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp50221_0208_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp50221_0212_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp737.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp775.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp850.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp852.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp853.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp855.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp856.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp857.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp858.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp860.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp861.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp862.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp863.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp864.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp865.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp866.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp869.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp874.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp922.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp932.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp932ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp936.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp936ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp943.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp949.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp950.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp950ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\dec_hanyu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\dec_kanji.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_cn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_jisx0213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_jp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_kr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_tw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\flushwc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb12345.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb12345ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb18030.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb18030ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb18030uni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb2312.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbkext1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbkext2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbkext_inv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\georgian_academy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\georgian_ps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs1999.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs2001.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs2004.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs2008.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hp_roman8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iconv_open1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iconv_open2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_cn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_cnext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jpms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_kr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso646_cn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso646_jp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_13.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_14.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\isoir165.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\isoir165ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\java.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0201.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0208.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0212.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\johab.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\johab_hangul.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_r.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_ru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_t.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_u.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ksc5601.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\localcharset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\loop_unicode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\loop_wchar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\loops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_arabic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_centraleurope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_croatian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_cyrillic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_greek.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_hebrew.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_iceland.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_roman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_romania.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_thai.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_turkish.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_ukraine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mulelao.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\nextstep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\pt154.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\relocatable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\riscos1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\rk1048.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\shift_jisx0213.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\sjis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\tcvn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\tds565.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\tis620.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\translit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2be.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2le.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2swapped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4be.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4le.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4swapped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\uhc_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\uhc_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf16.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf16be.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf16le.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf32be.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf32le.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\vietcomb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\viscii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\libiconv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0822866B-7A79-3995-A468-392BA3023C58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4C2CAF42-75C3-3BBA-99C8-90464169B846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

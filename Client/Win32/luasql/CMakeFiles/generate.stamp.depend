@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Server/trunk/luasql/CMakeLists.txt
+E:/projects/NPLRuntime/Server/trunk/luasql/FindMySQL.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPostgreSQL.cmake
+E:/software/cmake/share/cmake-3.20/Modules/SelectLibraryConfigurations.cmake

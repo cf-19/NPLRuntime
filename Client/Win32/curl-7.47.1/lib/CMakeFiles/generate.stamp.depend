@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Client/Win32/curl-7.47.1/lib/Makefile.inc.cmake
+E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/include/curl/curlbuild.h.cmake
+E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/lib/CMakeLists.txt
+E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/lib/curl_config.h.cmake

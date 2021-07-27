@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Server/trunk/sqlite-3.6.23.1/CMakeLists.txt
+E:/software/cmake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckLibraryExists.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindBoost.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindThreads.cmake

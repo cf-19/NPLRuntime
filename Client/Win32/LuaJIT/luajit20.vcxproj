@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A425031B-4A5C-3D6B-8690-75A4FB198B6C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>luajit20</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">luajit20.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lua_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">luajit20.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">luajit20.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">luajit20.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="Debug";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"Debug\";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/Debug/lua_d.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/Debug/lua_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/Debug/lua_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="Release";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"Release\";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/Release/lua.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/Release/lua.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/Release/lua.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="MinSizeRel";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"MinSizeRel\";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/MinSizeRel/lua.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/MinSizeRel/lua.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/MinSizeRel/lua.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR="RelWithDebInfo";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;LUAJIT_OS=LUAJIT_OS_WINDOWS;CMAKE_INTDIR=\"RelWithDebInfo\";luajit20_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\LuaJIT;E:\projects\NPLRuntime\Server\trunk\LuaJIT\dynasm;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\host;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/RelWithDebInfo/lua.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/RelWithDebInfo/lua.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/RelWithDebInfo/lua.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\Win32\CMakeFiles\8a4832cd58ba8c2ade8d919e9493a4fa\lj_vm.obj.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating lj_vm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe -m peobj -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_vm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_vm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating lj_vm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe -m peobj -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_vm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_vm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating lj_vm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe -m peobj -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_vm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_vm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating lj_vm.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe -m peobj -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_vm.obj
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_vm.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\Win32\CMakeFiles\8a4832cd58ba8c2ade8d919e9493a4fa\lj_ffdef.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating lj_ffdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe -m ffdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_ffdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_ffdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating lj_ffdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe -m ffdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_ffdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_ffdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating lj_ffdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe -m ffdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_ffdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_ffdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating lj_ffdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe -m ffdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_ffdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_ffdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\Win32\CMakeFiles\8a4832cd58ba8c2ade8d919e9493a4fa\lj_bcdef.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating lj_bcdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe -m bcdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_bcdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_bcdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating lj_bcdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe -m bcdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_bcdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_bcdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating lj_bcdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe -m bcdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_bcdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_bcdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating lj_bcdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe -m bcdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_bcdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_bcdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\Win32\CMakeFiles\8a4832cd58ba8c2ade8d919e9493a4fa\lj_libdef.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating lj_libdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe -m libdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_libdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_libdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating lj_libdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe -m libdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_libdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_libdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating lj_libdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe -m libdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_libdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_libdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating lj_libdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe -m libdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_libdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_libdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\Win32\CMakeFiles\8a4832cd58ba8c2ade8d919e9493a4fa\lj_recdef.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating lj_recdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe -m recdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_recdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_recdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating lj_recdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe -m recdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_recdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_recdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating lj_recdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe -m recdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_recdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_recdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating lj_recdef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe -m recdef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_recdef.h src/lib_base.c src/lib_math.c src/lib_bit.c src/lib_string.c src/lib_table.c src/lib_io.c src/lib_os.c src/lib_debug.c src/lib_jit.c src/lib_ffi.c src/lib_package.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_recdef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\Win32\CMakeFiles\8a4832cd58ba8c2ade8d919e9493a4fa\lj_folddef.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating lj_folddef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe -m folddef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_folddef.h src/lj_opt_fold.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Debug\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_fold.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_folddef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating lj_folddef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe -m folddef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_folddef.h src/lj_opt_fold.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\Release\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_fold.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_folddef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating lj_folddef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe -m folddef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_folddef.h src/lj_opt_fold.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\MinSizeRel\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_fold.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_folddef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating lj_folddef.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+cd E:\projects\NPLRuntime\Server\trunk\LuaJIT
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe -m folddef -o E:/projects/NPLRuntime/Client/Win32/LuaJIT/lj_folddef.h src/lj_opt_fold.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\RelWithDebInfo\buildvm.exe;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_fold.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_folddef.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/LuaJIT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/LuaJIT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CMakeASMCompiler.cmake;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\luaconf.h.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMCompiler.cmake.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMInformation.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeTestASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\Compiler\MSVC-ASM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/LuaJIT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/LuaJIT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CMakeASMCompiler.cmake;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\luaconf.h.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMCompiler.cmake.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMInformation.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeTestASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\Compiler\MSVC-ASM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/LuaJIT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/LuaJIT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CMakeASMCompiler.cmake;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\luaconf.h.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMCompiler.cmake.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMInformation.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeTestASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\Compiler\MSVC-ASM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/LuaJIT/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/LuaJIT/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CMakeASMCompiler.cmake;E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\luaconf.h.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMCompiler.cmake.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeASMInformation.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeCompilerIdDetection.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeDetermineCompilerId.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeFindBinUtils.cmake;E:\software\cmake\share\cmake-3.20\Modules\CMakeTestASMCompiler.cmake;E:\software\cmake\share\cmake-3.20\Modules\Compiler\MSVC-ASM.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\LuaJIT\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_gc.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_err.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_char.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_bc.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_obj.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_str.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_tab.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_func.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_udata.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_meta.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_debug.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_state.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_dispatch.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_vmevent.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_vmmath.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_strscan.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_api.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_lex.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_parse.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_bcread.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_bcwrite.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_load.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_ir.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_mem.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_fold.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_narrow.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_dce.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_loop.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_split.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_opt_sink.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_mcode.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_snap.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_record.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_crecord.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_ffrecord.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_asm.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_trace.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_gdbjit.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_ctype.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_cdata.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_cconv.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_ccall.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_ccallback.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_carith.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_clib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_cparse.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_lib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lj_alloc.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_aux.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_init.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_base.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_math.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_bit.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_string.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_table.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_io.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_os.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_debug.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_jit.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_ffi.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\LuaJIT\src\lib_package.c" />
+    <Object Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_vm.obj" />
+    <ClInclude Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_ffdef.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_bcdef.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_libdef.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_recdef.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\lj_folddef.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\projects\NPLRuntime\Client\Win32\ZERO_CHECK.vcxproj">
+      <Project>{7EC2056F-461C-3D6F-9F2D-07AF264B9EA4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\NPLRuntime\Client\Win32\LuaJIT\buildvm.vcxproj">
+      <Project>{646AB2EA-B5E8-3160-8323-A6B1EF773BBF}</Project>
+      <Name>buildvm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

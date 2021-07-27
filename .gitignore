@@ -40,10 +40,11 @@ Tests/
 WanDeploy/
 WebAPI/
 !Client/
-Client/*
+# Client/*
 !Client/CMakeLists.txt
 !Client/trunk/
-Client/trunk/*
+!Client/trunk/Win32
+# Client/trunk/*
 !Client/trunk/ParaEngineClient/
 !Client/trunk/ParaEngineClientApp/
 !Client/trunk/PhysicsBT/

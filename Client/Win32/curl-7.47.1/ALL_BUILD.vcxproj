@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E27A3B1B-E5B4-3BAD-B970-102F23BCC160}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/curl-7.47.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDNA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDN_FREE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SCHANNEL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSPI_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_TLD_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Macros.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\OtherTests.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Platforms\WindowsCache.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Utilities.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\curl-config.in;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\libcurl.pc.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeConfigurableFile.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceRuns.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.c.in;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindZLIB.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/curl-7.47.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDNA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDN_FREE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SCHANNEL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSPI_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_TLD_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Macros.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\OtherTests.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Platforms\WindowsCache.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Utilities.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\curl-config.in;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\libcurl.pc.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeConfigurableFile.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceRuns.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.c.in;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindZLIB.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/curl-7.47.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDNA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDN_FREE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SCHANNEL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSPI_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_TLD_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Macros.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\OtherTests.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Platforms\WindowsCache.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Utilities.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\curl-config.in;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\libcurl.pc.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeConfigurableFile.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceRuns.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.c.in;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindZLIB.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/curl-7.47.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/curl-7.47.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDNA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IDN_FREE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SCHANNEL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSPI_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_TLD_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINBER_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINLDAP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Macros.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\OtherTests.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Platforms\WindowsCache.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\Utilities.cmake;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\curl-config.in;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\libcurl.pc.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeConfigurableFile.in;E:\software\cmake\share\cmake-3.20\Modules\CMakeDependentOption.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCSourceRuns.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c;E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFileCXX.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckIncludeFiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckStructHasMember.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.c.in;E:\software\cmake\share\cmake-3.20\Modules\CheckTypeSize.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindPackageMessage.cmake;E:\software\cmake\share\cmake-3.20\Modules\FindZLIB.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;E:\software\cmake\share\cmake-3.20\Modules\Internal\CheckSourceRuns.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\projects\NPLRuntime\Client\Win32\ZERO_CHECK.vcxproj">
+      <Project>{7EC2056F-461C-3D6F-9F2D-07AF264B9EA4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\lib\libcurl.vcxproj">
+      <Project>{B1EE8882-B224-34F0-8FFA-6D7D4AC54591}</Project>
+      <Name>libcurl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

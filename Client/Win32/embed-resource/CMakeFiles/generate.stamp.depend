@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/NPLRuntime/embed-resource/CMakeLists.txt
+E:/software/cmake/share/cmake-3.20/Modules/FindBoost.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake

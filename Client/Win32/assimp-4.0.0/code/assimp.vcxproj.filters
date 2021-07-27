@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CInterfaceIOWrapper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>open3dgc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StringUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\IOStreamBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CreateAnimMesh.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\DefaultIOStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\DefaultIOSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\SceneCombiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{FB43E1CD-8C79-3825-AC01-7FCAA32F89A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{607D6C3C-060C-36AE-A39D-0FADAAC0BEE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{506C676C-F216-38B3-848A-7D6A702E0C24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{E4C7DDD0-C7E8-349E-AF4F-6329B82066D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{F22C91C0-6001-3A77-BF17-3733B7AFF578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0822866B-7A79-3995-A468-392BA3023C58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{BAAE4E44-11F0-3A4C-A6C4-A15AA7A14DB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{49733F8D-2DF8-3947-83A8-A8C0C8574C0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{78072BA3-8049-3361-B675-BBD0BD27D868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{EADBB5AA-6092-3FDD-8B86-2F67664E9686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{F3866E81-929D-3B6E-B259-5C80342E5E22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4C2CAF42-75C3-3BBA-99C8-90464169B846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{F354D892-A226-3D64-BBFD-158326AC2607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="open3dgc">
+      <UniqueIdentifier>{CB758508-FD79-375B-BE65-13DFCB617A50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{9F6FAB87-E60F-322D-AE5F-3F6E7F13C432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{E4C8E661-F9C4-3AB0-A001-29118C03A7B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

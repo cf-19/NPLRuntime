@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Client/trunk/externals/bullet3/BulletConfig.cmake.in
+E:/projects/NPLRuntime/Client/trunk/externals/bullet3/CMakeLists.txt
+E:/software/cmake/share/cmake-3.20/Modules/FindOpenGL.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\action_store.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\htmlutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\lex_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\node_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\tinystr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\tinyxml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\tinyxmlerror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\tinyxmlparser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\tokenlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xml_util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xpath_expression.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xpath_processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xpath_stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xpath_static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xpath_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\xpath_syntax.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\tinyxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0822866B-7A79-3995-A468-392BA3023C58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4C2CAF42-75C3-3BBA-99C8-90464169B846}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

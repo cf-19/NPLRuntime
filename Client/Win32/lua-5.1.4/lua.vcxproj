@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{776BA603-85FD-3270-B00F-9C78CFB95E0B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>lua</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lua.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">lua_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lua.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lua.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lua.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">lua</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LUA_BUILD_AS_DLL;CMAKE_INTDIR="Debug";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"Debug\";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/Debug/lua_d.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32//lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/Debug/lua_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/Debug/lua_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;CMAKE_INTDIR="Release";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"Release\";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/Release/lua.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32//lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 /opt:ref</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/Release/lua.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/Release/lua.pdb</ProgramDataBaseFile>
+      <StripPrivateSymbols>Release/lua.stripped.pdb</StripPrivateSymbols>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;CMAKE_INTDIR="MinSizeRel";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"MinSizeRel\";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/MinSizeRel/lua.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32//lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/MinSizeRel/lua.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/MinSizeRel/lua.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;CMAKE_INTDIR="RelWithDebInfo";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LUA_BUILD_AS_DLL;CMAKE_INTDIR=\"RelWithDebInfo\";lua_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+E:\software\cmake\bin\cmake.exe -E make_directory E:/projects/NPLRuntime/Client/../ParaWorld/bin32/
+if %errorlevel% neq 0 goto :cmEnd
+E:\software\cmake\bin\cmake.exe -E copy E:/projects/NPLRuntime/Client/Win32/lib/RelWithDebInfo/lua.dll E:/projects/NPLRuntime/Client/../ParaWorld/bin32//lua51.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/projects/NPLRuntime/Client/Win32/lib/RelWithDebInfo/lua.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/projects/NPLRuntime/Client/Win32/lib/RelWithDebInfo/lua.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/lua-5.1.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/lua-5.1.4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\lua-5.1.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/lua-5.1.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/lua-5.1.4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\lua-5.1.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/lua-5.1.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/lua-5.1.4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\lua-5.1.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/lua-5.1.4/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/lua-5.1.4/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\lua-5.1.4\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lapi.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lauxlib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lbaselib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lcode.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ldblib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ldebug.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ldo.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ldump.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lfunc.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lgc.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\linit.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\liolib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\llex.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lmathlib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lmem.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\loadlib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lobject.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lopcodes.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\loslib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lparser.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lstate.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lstring.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lstrlib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ltable.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ltablib.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ltm.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lundump.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lvm.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lzio.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\print.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lcoco.c" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lapi.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lauxlib.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lcode.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ldebug.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ldo.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lfunc.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lgc.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\llex.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\llimits.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lmem.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lobject.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lopcodes.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lparser.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lstate.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lstring.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ltable.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\ltm.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lua.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\luaconf.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lualib.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lundump.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lvm.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lzio.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src\lcoco.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\projects\NPLRuntime\Client\Win32\ZERO_CHECK.vcxproj">
+      <Project>{7EC2056F-461C-3D6F-9F2D-07AF264B9EA4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

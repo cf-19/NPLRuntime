@@ -1,0 +1,1459 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2021/7/27 9:38:44。
+节点 1 上的项目“E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/projects/NPLRuntime/Client/Win32/CMakeFiles/3.20.5/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2021/7/27 9:38:45。
+节点 1 上的项目“E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\projects\NPLRuntime\Client\Win32\CMakeFiles\3.20.5\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.54
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/projects/NPLRuntime/Client/Win32/CMakeFiles/3.20.5/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_d1fbc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1fbc.dir\Debug\\" /Fd"cmTC_d1fbc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\software\cmake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+  cmTC_d1fbc.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_d1fbc.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_46f44.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_46f44.dir\Debug\\" /Fd"cmTC_46f44.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "E:\software\cmake\share\cmake-3.20\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+  cmTC_46f44.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_46f44.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e978b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e978b.dir\Debug\\" /Fd"cmTC_e978b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+  cmTC_e978b.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_e978b.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_7ea13.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ea13.dir\Debug\\" /Fd"cmTC_7ea13.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+  cmTC_7ea13.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_7ea13.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_03b84.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03b84.dir\Debug\\" /Fd"cmTC_03b84.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+  cmTC_03b84.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_03b84.exe
+
+
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f83d6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f83d6.dir\Debug\\" /Fd"cmTC_f83d6.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_f83d6.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_f83d6.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_13076.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13076.dir\Debug\\" /Fd"cmTC_13076.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_13076.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_13076.exe
+
+
+
+Determining if the function cldap_open exists in the wldap32 passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1c8ea.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c8ea.dir\Debug\\" /Fd"cmTC_1c8ea.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\software\cmake\share\cmake-3.20\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_1c8ea.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_1c8ea.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0209a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0209a.dir\Debug\\" /Fd"cmTC_0209a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
+  HAVE_WINDOWS_H.c
+  
+  cmTC_0209a.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_0209a.exe
+
+
+
+Determining if files windows.h;winsock.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3811e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3811e.dir\Debug\\" /Fd"cmTC_3811e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c
+  HAVE_WINSOCK_H.c
+  
+  cmTC_3811e.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_3811e.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_2af9c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2af9c.dir\Debug\\" /Fd"cmTC_2af9c.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c
+  HAVE_WS2TCPIP_H.c
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_2af9c.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_2af9c.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_2af9c.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_2b172.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b172.dir\Debug\\" /Fd"cmTC_2b172.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c
+  HAVE_WINSOCK2_H.c
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_2b172.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_2b172.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_2b172.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_dc14e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc14e.dir\Debug\\" /Fd"cmTC_dc14e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSPI_H.c
+  
+  HAVE_SSPI_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_dc14e.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SSPI_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_dc14e.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_dc14e.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0f651.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0f651.dir\Debug\\" /Fd"cmTC_0f651.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SCHANNEL_H.c
+  
+  HAVE_SCHANNEL_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_0f651.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_SCHANNEL_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_0f651.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_0f651.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ca65e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca65e.dir\Debug\\" /Fd"cmTC_ca65e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c
+  
+  HAVE_STDIO_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ca65e.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_ca65e.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_ca65e.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_19317.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_19317.dir\Debug\\" /Fd"cmTC_19317.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c
+  
+  HAVE_ASSERT_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_19317.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_19317.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_19317.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_993ea.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_993ea.dir\Debug\\" /Fd"cmTC_993ea.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c
+  
+  HAVE_ERRNO_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_993ea.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_993ea.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_993ea.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_08a6b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08a6b.dir\Debug\\" /Fd"cmTC_08a6b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c
+  
+  HAVE_LIMITS_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_08a6b.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_08a6b.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_08a6b.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ee4fd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee4fd.dir\Debug\\" /Fd"cmTC_ee4fd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c
+  
+  HAVE_LOCALE_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ee4fd.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_ee4fd.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_ee4fd.exe
+
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;sspi.h;schannel.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e89b4.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e89b4.dir\Debug\\" /Fd"cmTC_e89b4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c
+  
+  HAVE_STDBOOL_H.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_e89b4.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_e89b4.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_e89b4.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0216e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0216e.dir\Debug\\" /Fd"cmTC_0216e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  
+  SIZEOF_SIZE_T.c
+  cmTC_0216e.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_0216e.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_49ee0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_49ee0.dir\Debug\\" /Fd"cmTC_49ee0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
+  
+  SIZEOF_LONG_LONG.c
+  cmTC_49ee0.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_49ee0.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_57efb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_57efb.dir\Debug\\" /Fd"cmTC_57efb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  
+  SIZEOF_LONG.c
+  cmTC_57efb.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_57efb.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_53976.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53976.dir\Debug\\" /Fd"cmTC_53976.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  
+  SIZEOF_SHORT.c
+  cmTC_53976.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_53976.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_207f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_207f0.dir\Debug\\" /Fd"cmTC_207f0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  
+  SIZEOF_INT.c
+  cmTC_207f0.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_207f0.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_967d3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_967d3.dir\Debug\\" /Fd"cmTC_967d3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c
+  
+  SIZEOF___INT64.c
+  cmTC_967d3.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_967d3.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_8d749.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d749.dir\Debug\\" /Fd"cmTC_8d749.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c
+  
+  SIZEOF_TIME_T.c
+  cmTC_8d749.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_8d749.exe
+
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_75f3b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75f3b.dir\Debug\\" /Fd"cmTC_75f3b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_75f3b.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(34): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_75f3b.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(2219): note: 参见“gethostbyname”的声明
+  cmTC_75f3b.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_75f3b.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_18d49.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18d49.dir\Debug\\" /Fd"cmTC_18d49.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_18d49.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_18d49.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_18d49.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f01ed.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f01ed.dir\Debug\\" /Fd"cmTC_f01ed.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_f01ed.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_f01ed.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_f01ed.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e645f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e645f.dir\Debug\\" /Fd"cmTC_e645f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_e645f.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_e645f.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_e645f.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f130b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f130b.dir\Debug\\" /Fd"cmTC_f130b.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_f130b.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_f130b.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_f130b.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_b5bab.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5bab.dir\Debug\\" /Fd"cmTC_b5bab.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_b5bab.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_b5bab.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_b5bab.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setsockopt exist passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_88be8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88be8.dir\Debug\\" /Fd"cmTC_88be8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_88be8.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_88be8.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_88be8.exe
+
+
+File E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <sspi.h>
+#include <schannel.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_66091.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_SSPI_H /D HAVE_SCHANNEL_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_66091.dir\Debug\\" /Fd"cmTC_66091.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c"
+  
+  CurlTests.c
+e:\projects\nplruntime\server\trunk\curl-7.47.1\cmake\curltests.c(322): warning C4700: 使用了未初始化的局部变量“socket” [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_66091.vcxproj]
+  cmTC_66091.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_66091.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ea8f8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_SSPI_H /D HAVE_SCHANNEL_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea8f8.dir\Debug\\" /Fd"cmTC_ea8f8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c"
+  
+  CurlTests.c
+  cmTC_ea8f8.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_ea8f8.exe
+
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f0533.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_SSPI_H /D HAVE_SCHANNEL_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0533.dir\Debug\\" /Fd"cmTC_f0533.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c"
+  
+  CurlTests.c
+  cmTC_f0533.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_f0533.exe
+
+
+Performing Curl Test HAVE_SOCKLEN_T passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_5a86f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_SSPI_H /D HAVE_SCHANNEL_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a86f.dir\Debug\\" /Fd"cmTC_5a86f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c"
+  
+  CurlTests.c
+  cmTC_5a86f.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_5a86f.exe
+
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_583b8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_SSPI_H /D HAVE_SCHANNEL_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_583b8.dir\Debug\\" /Fd"cmTC_583b8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\CMake\CurlTests.c"
+  
+  CurlTests.c
+  cmTC_583b8.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_583b8.exe
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_5014d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5014d.dir\Debug\\" /Fd"cmTC_5014d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c
+  
+  CURL_SIZEOF_CURL_SOCKLEN_T.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_5014d.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_5014d.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_5014d.exe
+
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0d782.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D curl_cv_recv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d782.dir\Debug\\" /Fd"cmTC_0d782.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_0d782.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_0d782.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_0d782.exe
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_d6c9f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D curl_cv_func_recv_test /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6c9f.dir\Debug\\" /Fd"cmTC_d6c9f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_d6c9f.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c: note: 参见“_WINSOCKAPI_”的前一个定义
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 1 与声明不同 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_d6c9f.vcxproj]
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 2 与声明不同 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_d6c9f.vcxproj]
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 3 与声明不同 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_d6c9f.vcxproj]
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4273: “recv”: dll 链接不一致 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_d6c9f.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(2002): note: 参见“recv”的前一个定义
+  cmTC_d6c9f.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_d6c9f.exe
+
+
+Source file was:
+
+                  #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  recv(int, void *, size_t, int);
+                  int main(void) {
+                    int s=0;
+                    void * buf=0;
+                    size_t len=0;
+                    int flags=0;
+                    int res = recv(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3fe42.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D curl_cv_send /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3fe42.dir\Debug\\" /Fd"cmTC_3fe42.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_3fe42.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_3fe42.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_3fe42.exe
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ced61.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D curl_cv_func_send_test /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ced61.dir\Debug\\" /Fd"cmTC_ced61.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ced61.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c: note: 参见“_WINSOCKAPI_”的前一个定义
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 1 与声明不同 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ced61.vcxproj]
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 2 与声明不同 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ced61.vcxproj]
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 3 与声明不同 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ced61.vcxproj]
+E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c(10): warning C4273: “send”: dll 链接不一致 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ced61.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(2077): note: 参见“send”的前一个定义
+  cmTC_ced61.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_ced61.exe
+
+
+Source file was:
+
+                  #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  send(int, const void *, size_t, int);
+                  int main(void) {
+                    int s=0;
+                    const void * buf=0;
+                    size_t len=0;
+                    int flags=0;
+                    int res = send(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_ac566.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_ /D SECURITY_WIN32 /D HAVE_STRUCT_TIMEVAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac566.dir\Debug\\" /Fd"cmTC_ac566.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_ac566.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_ac566.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_ac566.exe
+
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of sig_atomic_t passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_904e2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_904e2.dir\Debug\\" /Fd"cmTC_904e2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c
+  
+  SIZEOF_SIG_ATOMIC_T.c
+  cmTC_904e2.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_904e2.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE succeeded with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_a5ece.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_ /D SECURITY_WIN32 /D HAVE_SIG_ATOMIC_T_NOT_VOLATILE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5ece.dir\Debug\\" /Fd"cmTC_a5ece.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+  cmTC_a5ece.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_a5ece.exe
+
+
+Source file was:
+
+    #ifdef HAVE_SIGNAL_H
+    #  include <signal.h>
+    #endif
+    int main(void) {
+      static volatile sig_atomic_t dummy = 0;
+      (void)dummy;
+      return 0;
+    }
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_73213.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11" /I"E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11" /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_ /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73213.dir\Debug\\" /Fd"cmTC_73213.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\cmTC_73213.vcxproj]
+  E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c: note: 参见“_WINSOCKAPI_”的前一个定义
+  cmTC_73213.vcxproj -> E:\projects\NPLRuntime\Client\Win32\CMakeFiles\CMakeTmp\Debug\cmTC_73213.exe
+
+
+
+Checking whether the ASM compiler is MSVC using "-?" matched "Microsoft":
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+             C/C++ 编译器选项
+
+
+               -优化-
+
+/O1 最大优化(优选空间)                  /O2 最大优化(优选速度)
+/Ob<n> 内联扩展(默认 n=0)               /Od 禁用优化(默认)
+/Og 启用全局优化                        /Oi[-] 启用内部函数
+/Os 优选代码空间                        /Ot 优选代码速度
+/Ox 优化(优选速度)                      /Oy[-] 启用帧指针省略 
+/favor:<blend|ATOM> 选择优化所针对的处理器，为以下值之一:
+  blend - 针对几种不同 x86 处理器的优化组合
+  ATOM - Intel(R) Atom(TM) 处理器       
+
+               -代码生成-
+
+/Gu[-] 确保 distinct 函数具有非重复地址 /Gw[-] 分隔链接器的全局变量
+/GF 启用只读字符串池                    /Gm[-] 启用最小重新生成
+/Gy[-] 分隔链接器函数                   /GS[-] 启用安全检查
+/GR[-] 启用 C++ RTTI                    /GX[-] 启用 C++ EH (与 /EHsc 相同)
+/guard:cf[-] 启用 CFG (控制流保护)      /EHs 启用 C++ EH (没有 SEH 异常)
+/EHa 启用 C++ EH (w/ SEH 异常)          /EHc 外部 "C" 默认为 nothrow
+/EHr 始终生成 noexcept 运行时终止检查   
+/fp:<except[-]|fast|precise|strict> 选择浮点模型:
+  except[-] - 在生成代码时考虑浮点异常  
+  fast - "fast" 浮点模型；结果可预测性比较低
+  precise - "precise" 浮点模型；结果可预测
+  strict - "strict" 浮点模型(意味着 /fp:except)
+即使使用 /fp:except，/Qfast_transcendentals 也生成内联内部 FP
+/Qspectre[-] 对 CVE 2017-5753 启用缓解措施
+/Qpar[-] 启用并行代码生成               
+/Qpar-report:1 自动并行化诊断；指示已并行化循环
+/Qpar-report:2 自动并行化诊断；指示未并行化循环
+/Qvec-report:1 自动向量化诊断；指示已向量化循环
+/Qvec-report:2 自动向量化诊断；指示未向量化循环
+/GL[-] 启用链接时代码生成               /volatile:<iso|ms> 选择可变模型:
+    iso - Acquire/release 语义对可变访问不一定有效
+    ms - Acquire/release 语义对可变访问一定有效
+/GA 为 Windows 应用程序进行优化         /Ge 对所有函数强制堆栈检查
+/Gs[num] 控制堆栈检查调用               /Gh 启用 _penter 函数调用
+/GH 启用 _pexit 函数调用                /GT 生成纤程安全 TLS 访问
+/RTC1 启用快速检查(/RTCsu)              /RTCc 转换为较小的类型检查
+/RTCs 堆栈帧运行时检查                  /RTCu 未初始化的局部用法检查
+/clr[:option] 为公共语言运行时编译，其中 option 是:
+  pure - 生成只包含 IL 的输出文件(没有本机可执行代码)
+  safe - 生成只包含 IL 的可验证输出文件 
+  initialAppDomain - 启用 Visual C++ 2002 的初始 AppDomain 行为
+  noAssembly - 不产生程序集               nostdlib - 忽略默认的 \clr 目录
+/Gd __cdecl 调用约定                    /Gr __fastcall 调用约定
+/Gz __stdcall 调用约定                  /GZ 启用堆栈检查(/RTCs)
+/Gv __vectorcall 调用约定               /QIfist[-] 使用 FIST 而不是 ftol()
+/hotpatch 确保可热修补映像的函数填充    
+/arch:<IA32|SSE|SSE2|AVX|AVX2> CPU 架构的最低要求，以下选项之一:
+  IA32 - 不使用增强指令并将 x87 用于浮点
+  SSE - 允许使用支持 SSE 的 CPU 可用的指令
+  SSE2 - (默认)允许使用支持 SSE2 的 CPU 可用的指令
+  AVX - 允许使用支持 AVX 的 CPU 可用的指令
+  AVX2 - 允许使用支持 AVX2 的 CPU 可用的指令
+/Qimprecise_fwaits 仅在“try”边界而不是“try”内部生成 FWAIT
+/Qsafe_fp_loads 生成安全 FP 负载        
+/Qspectre-load 对加载内存的所有指令启用 spectre 缓解措施
+/Qspectre-load-cf 对加载内存的所有控制流指令启用 spectre 缓解措施
+
+               -输出文件-
+
+/Fa[file] 命名程序集列表文件            /FA[scu] 配置程序集列表
+/Fd[file] 命名 .PDB 文件                /Fe<file> 命名可执行文件
+/Fm[file] 命名映射文件                  /Fo<file> 命名对象文件
+/Fp<file> 命名预编译头文件              /Fr[file] 命名源浏览器文件
+/FR[file] 命名扩展 .SBR 文件            /Fi[file] 命名预处理的文件
+/Fd: <file> 命名 .PDB 文件              /Fe: <file> 命名可执行文件
+/Fm: <file> 命名映射文件                /Fo: <file> 命名对象文件
+/Fp: <file> 命名 .PCH 文件              /FR: <file> 命名扩展 .SBR 文件
+/Fi: <file> 命名预处理的文件            
+/doc[file] 处理 XML 文档注释，并可选择命名 .xdc 文件
+
+               -预处理器-
+
+/AI<dir> 添加到程序集搜索路径           /FU<file> 强制使用程序集/模块 
+/C 不抽出注释                           /D<name>{=|#}<text> 定义宏
+/E 预处理到 stdout                      /EP 预处理到 stdout，无行号
+/P 预处理到文件                         /Fx 将插入的代码合并到文件中
+/FI<file> 命名强制包含文件              /U<name> 移除预定义的宏
+/u 移除所有预定义的宏                   /I<dir> 添加到包含搜索路径
+/X 忽略“标准位置”                     /PH 在预处理时生成 #pragma file_hash
+
+                -语言-
+
+/std:<c++14|c++17|c++latest> C++ 标准版
+    c++14 – ISO/IEC 14882:2014 (默认)
+    c++17 – ISO/IEC 14882:2017
+    c++latest – 最新草案标准(功能集可更改)
+/permissive[-] 使某些非符合代码可编译(功能集可更改)(默认开启)
+/Ze 启用扩展(默认)                      /Za 禁用扩展
+/ZW 启用 WinRT 语言扩展                 /Zs 只进行语法检查
+/Zc:arg1[,arg2] C++ 语言合规性，这里的参数可以是:
+ forScope[-]      对范围规则强制使用标准 C++
+ wchar_t[-]      wchar_t 是本机类型，不是 typedef
+  auto[-]               对 auto 强制使用新的标准 C++ 含义
+  trigraphs[-]          启用三元祖(默认关闭)
+ rvalueCast[-]     强制实施标准 C++ 显式类型转换规则
+ strictStrings[-]   禁用从字符串文本到 [char|wchar_t]*
+                        的转换(默认关闭)
+ implicitNoexcept[-]  在必需的函数上启用隐式 noexcept
+threadSafeInit[-]   启用线程安全的本地静态初始化
+  inline[-]             remove unreferenced function or data if it is
+                        COMDAT or has internal linkage only (off by default)
+  sizedDealloc[-]       enable C++14 global sized deallocation
+                        functions (on by default)
+  throwingNew[-]        假设运算符 new 在故障时引发(默认关闭)
+  referenceBinding[-]   临时引用不会绑定到非常数
+                        lvalue 引用(默认关闭)
+  twoPhase-             禁用两阶段名称查找
+  ternary[-]            对条件运算符强制使用 C++11 规则(默认关闭)
+  noexceptTypes[-]      强制执行 C++17 noexcept 规则(在 C++17 或更高版本中默认开启)
+  alignedNew[-]         对动态分配的对象启用 C++17 对齐方式(默认开启)
+/await 启用可恢复函数扩展               
+/constexpr:depth<N>     constexpr 评估的递归深度限制(默认值: 512)
+/constexpr:backtrace<N> 在诊断中显示 N constexpr 评估(默认值: 10)
+/constexpr:steps<N>     在 N 个步骤后终止 constexpr 评估(默认值: 100000)
+/Zi 启用调试信息                        /Z7 启用旧式调试信息
+/Zo[-] 为优化的代码生成更丰富的调试信息(默认开启)
+/ZH:SHA_256             在调试信息(实验)中将 SHA256 用于文件校验和
+/Zp[n] 在 n 字节边界上包装结构          /Zl 省略 .OBJ 中的默认库名
+/vd{0|1|2} 禁用/启用 vtordisp           /vm<x> 指向成员的指针类型
+/ZI 启用“编辑并继续”调试信息          /openmp 启用 OpenMP 2.0 语言扩展
+
+               - 杂项 -
+
+@<file> 选项响应文件                    /?, /help 打印此帮助消息
+/bigobj 生成扩展的对象格式              /c 只编译，不链接
+/errorReport:option 将内部编译器错误报告给 Microsoft
+    none - 不发送报告                       prompt - 提示立即发送报告
+    queue - 在下一次管理员登录时，提示发送报告(默认)
+    send - 自动发送报告                 /FC 诊断中使用完整路径名
+/H<num> 最大外部名称长度                /J 默认 char 类型是 unsigned
+/MP[n] 最多使用“n”个进程进行编译      /nologo 取消显示版权信息
+/showIncludes 显示包含文件名            /Tc<source file> 将文件编译为 .c
+/Tp<source file> 将文件编译为 .cpp      /TC 将所有文件编译为 .c
+/TP 将所有文件编译为 .cpp               /V<string> 设置版本字符串
+/Yc[file] 创建 .PCH 文件                /Yd 将调试信息放在每个 .OBJ 中
+/Yl[sym] 为调试库插入 .PCH 引用         /Yu[file] 使用 .PCH 文件
+/Y- 禁用所有 PCH 选项                   /Zm<n> 最大内存分配(默认值的百分比)
+/FS 强制使用 MSPDBSRV.EXE               
+/source-charset:<iana-name>|.nnnn 集源字符集
+/execution-charset:<iana-name>|.nnnn 集执行字符集
+/utf-8 集源和到 UTF-8 的执行字符集      
+/validate-charset[-] 验证 UTF-8 文件是否只有合法字符
+
+                -链接-
+
+/LD 创建 .DLL                           /LDd 创建 .DLL 调试库
+/LN 创建 .netmodule                     /F<num> 设置堆栈大小
+/link [链接器选项和库]                  /MD 与 MSVCRT.LIB 链接
+/MT 与 LIBCMT.LIB 链接                  /MDd 与 MSVCRTD.LIB 调试库链接
+/MTd 与 LIBCMTD.LIB 调试库链接          
+
+               -代码分析-
+
+/analyze[-] 启用本机分析                /analyze:quiet[-] 没有对控制台的警告
+/analyze:log<name> 对文件的警告         /analyze:autolog Log to *.pftlog
+/analyze:autolog:ext<ext> Log to *.<ext>/analyze:autolog- 无日志文件
+/analyze:WX- 警告不严重                 /analyze:stacksize<num> 最大堆栈帧
+/analyze:max_paths<num> 最大路径        /analyze:only Analyze, no code gen
+
+                              -诊断-
+
+/diagnostics:<args,...> 控制诊断消息的格式:
+             传统型 - 保留之前的格式
+             列[-] - 打印列信息
+             插入点[-] - 打印列和源的指示行
+/Wall 启用所有警告                      /w   禁用所有警告
+/W<n> 设置警告等级(默认 n=1)            
+/Wv:xx[.yy[.zzzzz]] 禁用在 xx.yy.zzzzz 版本后引入的警告功能
+/WX 将警告视为错误                      /WL 启用单行诊断
+/wd<n> 禁用警告 n                       /we<n> 将警告 n 视为错误
+/wo<n> 发出一次警告 n                   /w<l><n> 为 n 设置警告等级 1-4
+/external:I <path>      – 外部标头的位置
+/external:env:<var>    – 外部标头位置的环境变量
+/external:anglebrackets– 将所有通过 <> 包含的标头视为外部
+/external:W<n>          – 外部标头的警告级别
+/external:templates[-]  – 跨模板实例化链评估警告级别
+/sdl 支持其他安全功能和警告             
+

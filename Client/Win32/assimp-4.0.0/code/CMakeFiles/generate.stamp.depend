@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Client/trunk/externals/assimp-4.0.0/cmake-modules/FindRT.cmake
+E:/projects/NPLRuntime/Client/trunk/externals/assimp-4.0.0/code/CMakeLists.txt
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake
+E:/software/cmake/share/cmake-3.20/Modules/FindPackageMessage.cmake

@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Client/trunk/externals/FreeImage_3170/Dist/x32/FreeImage.dll
+E:/projects/NPLRuntime/NPLRuntime/ParaEngineClient/CMakeLists.txt
+E:/projects/NPLRuntime/NPLRuntime/ParaEngineClient/cmake/DirectX.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckIncludeFile.c.in
+E:/software/cmake/share/cmake-3.20/Modules/CheckIncludeFile.cmake

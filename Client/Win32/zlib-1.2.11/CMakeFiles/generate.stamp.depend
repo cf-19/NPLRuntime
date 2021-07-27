@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Client/Win32/CMakeFiles/CheckTypeSize/OFF64_T.c
+E:/projects/NPLRuntime/Server/trunk/zlib-1.2.11/CMakeLists.txt
+E:/projects/NPLRuntime/Server/trunk/zlib-1.2.11/zconf.h.cmakein
+E:/projects/NPLRuntime/Server/trunk/zlib-1.2.11/zlib.pc.cmakein
+E:/software/cmake/share/cmake-3.20/Modules/CheckCSourceCompiles.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckFunctionExists.c
+E:/software/cmake/share/cmake-3.20/Modules/CheckFunctionExists.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckIncludeFile.c.in
+E:/software/cmake/share/cmake-3.20/Modules/CheckIncludeFile.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckIncludeFileCXX.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CheckTypeSize.c.in
+E:/software/cmake/share/cmake-3.20/Modules/CheckTypeSize.cmake

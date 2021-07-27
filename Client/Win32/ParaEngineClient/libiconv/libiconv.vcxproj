@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B83E8BDD-1AB1-3421-994C-4D17E9B2F354}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libiconv</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libiconv.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libiconvd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libiconv.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libiconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libiconv.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libiconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libiconv.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libiconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SUPPORT_FBX_MODEL_FILE;USE_ICONV;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\embed-resource;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\AutoRigger;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Core;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\renderer;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\3dengine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\Engine;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\IO;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\util;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\math;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\ParaScriptBindings;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\NPL;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\2dengine\Video;E:\projects\NPLRuntime\NPLRuntime\ParaEngineClient\..\..\Client\trunk\ParaEngineClient\common;E:\projects\NPLRuntime\Server\trunk\sqlite-3.6.23.1;E:\projects\NPLRuntime\Server\trunk\luabind-0.9;E:\projects\NPLRuntime\Server\trunk\tinyxpath_1_3_1;E:\projects\NPLRuntime\Server\trunk\lua-5.1.4\src;E:\projects\NPLRuntime\Server\trunk\jsoncpp-0.5.0\include;E:\downloads\boost_1_73_0;E:\projects\NPLRuntime\Client\..\Server\trunk\Eigen;E:\projects\NPLRuntime\Client\..\Server\trunk\flann-1.8.4-src\src\cpp;E:\projects\NPLRuntime\Client\..\Server\trunk\Pinocchio\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\common\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\search\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\octree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\surface\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\kdtree\include;E:\projects\NPLRuntime\Client\..\Server\trunk\pcl\features\include;E:\projects\NPLRuntime\Client\trunk\externals\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\Win32\assimp-4.0.0\include;E:\projects\NPLRuntime\Client\..\Server\trunk\zlib-1.2.11;E:\projects\NPLRuntime\Client\Win32\zlib-1.2.11;E:\projects\NPLRuntime\Server\trunk\curl-7.47.1\include;E:\projects\NPLRuntime\Client\Win32\curl-7.47.1\include\curl;E:\projects\NPLRuntime\Server\trunk\libiconv\include;E:\projects\NPLRuntime\Server\trunk\libiconv\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\projects\NPLRuntime\Server\trunk\libiconv\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/libiconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/ParaEngineClient/libiconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\projects\NPLRuntime\Client\Win32\ParaEngineClient\libiconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/libiconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/ParaEngineClient/libiconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\projects\NPLRuntime\Client\Win32\ParaEngineClient\libiconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/libiconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/ParaEngineClient/libiconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\projects\NPLRuntime\Client\Win32\ParaEngineClient\libiconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/projects/NPLRuntime/Server/trunk/libiconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\software\cmake\bin\cmake.exe -SE:/projects/NPLRuntime/Client -BE:/projects/NPLRuntime/Client/Win32 --check-stamp-file E:/projects/NPLRuntime/Client/Win32/ParaEngineClient/libiconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\projects\NPLRuntime\Client\Win32\ParaEngineClient\libiconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\genaliases.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\genaliases2.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gentranslit.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iconv.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\localcharset.c" />
+    <ClCompile Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\relocatable.c" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\include\iconv.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_aix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_aix_sysaix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_dos.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_extra.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_osf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_osf1_sysosf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_sysaix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_syshpux.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_sysosf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\aliases_syssolaris.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\armscii_8.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ascii.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\atarist.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5_2003.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs1999.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs2001.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs2004.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\big5hkscs2008.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\c99.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_aix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_aix_sysaix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_dos.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_extra.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_sysaix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_syshpux.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_sysosf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_local_syssolaris.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_osf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_osf1_sysosf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_sysaix.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_syshpux.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_sysosf1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\canonical_syssolaris.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ces_big5.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ces_gbk.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cjk_variants.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_15.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_3.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_4.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_4a.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_4b.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_5.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_6.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_7.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cns11643_inv.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\config.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\converters.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1046.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1124.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1125.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1129.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1131.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1133.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1161.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1162.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1163.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1250.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1251.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1252.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1253.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1254.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1255.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1256.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1257.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp1258.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp437.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp50221_0208_ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp50221_0212_ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp737.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp775.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp850.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp852.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp853.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp855.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp856.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp857.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp858.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp860.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp861.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp862.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp863.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp864.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp865.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp866.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp869.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp874.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp922.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp932.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp932ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp936.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp936ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp943.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp949.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp950.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\cp950ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\dec_hanyu.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\dec_kanji.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_cn.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_jisx0213.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_jp.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_kr.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\euc_tw.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\flags.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\flushwc.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb12345.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb12345ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb18030.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb18030ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb18030uni.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gb2312.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbk.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbkext1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbkext2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\gbkext_inv.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\georgian_academy.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\georgian_ps.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs1999.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs2001.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs2004.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hkscs2008.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hp_roman8.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\hz.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iconv_open1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iconv_open2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_cn.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_cnext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jp3.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_jpms.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso2022_kr.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso646_cn.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso646_jp.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_10.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_11.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_13.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_14.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_15.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_16.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_3.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_4.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_5.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_6.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_7.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_8.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\iso8859_9.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\isoir165.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\isoir165ext.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\java.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0201.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0208.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0212.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\jisx0213.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\johab.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\johab_hangul.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_r.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_ru.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_t.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\koi8_u.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ksc5601.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\localcharset.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\loop_unicode.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\loop_wchar.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\loops.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_arabic.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_centraleurope.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_croatian.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_cyrillic.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_greek.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_hebrew.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_iceland.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_roman.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_romania.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_thai.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_turkish.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mac_ukraine.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\mulelao.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\nextstep.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\pt154.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\relocatable.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\riscos1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\rk1048.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\shift_jisx0213.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\sjis.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\tcvn.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\tds565.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\tis620.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\translit.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2be.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2internal.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2le.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs2swapped.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4be.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4internal.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4le.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\ucs4swapped.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\uhc_1.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\uhc_2.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf16.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf16be.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf16le.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf32.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf32be.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf32le.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf7.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\utf8.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\vietcomb.h" />
+    <ClInclude Include="E:\projects\NPLRuntime\Server\trunk\libiconv\src\viscii.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\projects\NPLRuntime\Client\Win32\ZERO_CHECK.vcxproj">
+      <Project>{7EC2056F-461C-3D6F-9F2D-07AF264B9EA4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

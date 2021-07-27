@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+E:/projects/NPLRuntime/Client/Win32/CMakeFiles/3.20.5/CMakeASMCompiler.cmake
+E:/projects/NPLRuntime/Server/trunk/LuaJIT/CMakeLists.txt
+E:/projects/NPLRuntime/Server/trunk/LuaJIT/src/luaconf.h.in
+E:/software/cmake/share/cmake-3.20/Modules/CMakeASMCompiler.cmake.in
+E:/software/cmake/share/cmake-3.20/Modules/CMakeASMInformation.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CMakeCompilerIdDetection.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CMakeDetermineASMCompiler.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CMakeDetermineCompiler.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CMakeDetermineCompilerId.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CMakeFindBinUtils.cmake
+E:/software/cmake/share/cmake-3.20/Modules/CMakeTestASMCompiler.cmake
+E:/software/cmake/share/cmake-3.20/Modules/Compiler/MSVC-ASM.cmake
