@@ -99,7 +99,7 @@ SimpleVSOut SimpleMainVS(	float4 pos		: POSITION,
 	
 	//calculate the fog factor
 	output.color.w = CalcFogFactor(length(output.pos.xyz));
-	return float4(1.0f, 1.0f, 1.0f, 1.0f);
+	return output;
 }
 
 // color.x: sun light  color.y:block light  color.z*255 block_id; 
