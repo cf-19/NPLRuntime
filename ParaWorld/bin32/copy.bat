@@ -1,0 +1,1 @@
+xcopy /s /y D:\WorkProject\NPLRuntime\ParaWorld\bin32 D:\WorkProject\ParaCraftLocal
