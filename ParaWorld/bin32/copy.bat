@@ -1,1 +1,1 @@
-xcopy /s /y D:\WorkProject\NPLRuntime\ParaWorld\bin32 D:\WorkProject\ParaCraftLocal
+xcopy /s /y D:\WorkProject\NPLRuntime\ParaWorld\bin32\ParaEngineClient_d.exe D:\WorkProject\ParaCraftLocal
